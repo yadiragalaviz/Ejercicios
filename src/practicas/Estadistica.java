@@ -13,7 +13,7 @@ public class Estadistica {
     int fre[]= new int [10];
     void frecuencia(){
         for(int i=1;i <vector.length;i++) {
-            ++fre[(vector[i])/10-1];
+            fre[(vector[i])/10-1]++;
         }
         
     }
